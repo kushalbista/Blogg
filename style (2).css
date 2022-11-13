@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+     background: white;
+}
+#blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    padding: 40px;
+     background:grey;
+}
+.lo{
+    font: sans serif;
+    color: #702963;
+    
+    margin-bottom:45px;
+}
+
+.blog-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-35px;
+     width: 370px;
+   color:  grey;
+ flex-wrap: wrap;
+   }
+   .ok{
+     font: sans serif;
+    color: #702963;
+    
+   }
+ 
+.blog-box{ 
+width: 350px;
+ background-color: #ffffff;
+  border: 1px solid #ececec;
+  margin-top: 300px; 
+  height: 2455px;
+  font-family:lora;
+  }
+.blog-box .blog-image{
+    width: 100%;
+    height: auto;
+}
+.blog-image img{
+    width: 100%; ahh
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+     font-family:lora ;
+}
+.blog-text span{
+    color: grey;
+    margin-top:-40px;
+}
+.blog-text a{
+    color: #272727;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.blog-text a:hover{
+    color: #f33c3c;
+    transition: 0.5s;
+}
+.blog-text p{
+
+  color: #373D3F;
+    font-size: 1rem;
+ -webkit-box-orient: vertical;
+ line-height:1.8;
+ letter-spacing:1px;
+ word-spacing:1px;
+    overflow: hidden;
+    text-overflow: clip;
+    margin: 20px 0;
+    font-family:lora;
+            white-space: nowrap;
+
+
+   
+}
+.blog-text .blog-title{
+    color: #0f0f0f;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.blog-text .blog-title:hover{
+    color: #f33c3c;
+    transition: all ease 0.5s;
+}
+@media(max-width:1250px){
+    .blog-box{
+        width: 300px;
+    }
+}
+@media(max-width:1100px){
+    .blog-box{
+        width: 70%;
+    }
+}
+@media(max-width:550px){
+    .blog-box{
+        width: 100%;
+        margin: 20px 0;
+    }
+    #blog{
+        padding: 40px;
+    }
+}
